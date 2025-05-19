@@ -1,12 +1,90 @@
-# React + Vite
+# Project HiAnime❤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich React-based project utilizing Redux Toolkit, Tailwind CSS, and Axios for efficient state management, UI styling, and API interactions.
 
-Currently, two official plugins are available:
+## 📂 Folder Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+react-major-project/
+│── node_modules/           # Project dependencies
+│── public/                 # Static assets (index.html, favicon, etc.)
+│── src/                    # Source code
+│   ├── assets/             # Image and SVG assets
+│   │   ├── 404.gif
+│   │   ├── loader.gif
+│   │   ├── noimage.jpg
+│   │   ├── tv-fill.svg
+│   ├── components/         # UI Components
+│   │   ├── templates/
+│   │   │   ├── Cards.jsx
+│   │   │   ├── Dropdown.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── HorizontalCards.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   ├── SideBar.jsx
+│   │   │   ├── TopNav.jsx
+│   │   ├── Trailer.jsx
+│   │   ├── Home.jsx
+│   │   ├── Movie.jsx
+│   │   ├── MovieDetails.jsx
+│   │   ├── Notfound.jsx
+│   │   ├── People.jsx
+│   │   ├── PersonDetails.jsx
+│   │   ├── Popular.jsx
+│   │   ├── Trending.jsx
+│   │   ├── TVShows.jsx
+│   │   ├── TVShowsDetails.jsx
+│   ├── Store/              # Redux Store
+│   │   ├── actions/
+│   │   │   ├── movieActions.js
+│   │   │   ├── personActions.js
+│   │   │   ├── tvActions.js
+│   │   ├── reducers/
+│   │   │   ├── movieSlice.js
+│   │   │   ├── personSlice.js
+│   │   │   ├── tvSlice.js
+│   │   ├── Store.js
+│   ├── utils/              # Utility functions (Axios instance, helpers)
+│   ├── App.jsx             # Root Component
+│   ├── index.css           # Global Styles
+│   ├── main.jsx            # React Entry Point
+│── .gitignore              # Git ignore file
+│── eslint.config.js        # ESLint configuration
+│── index.html              # Main HTML file
+│── package.json            # Project Metadata and Dependencies
+│── postcss.config.js       # PostCSS Configuration
+│── README.md               # Documentation
+│── tailwind.config.js      # Tailwind CSS Configuration
+│── vite.config.js          # Vite Configuration
+```
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
+- **React** - Component-based UI development
+- **Redux Toolkit** - State management
+- **Tailwind CSS** - Utility-first styling
+- **Axios** - API fetching
+- **React Router** - Client-side routing
+- **Vite** - Fast bundling and development server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+- Search functionality with dynamic suggestions
+- Movie, TV show, and People browsing
+- Trending and Popular sections
+- Redux-based state management for efficiency
+- Responsive UI with Tailwind CSS
+
+## 🏗 Setup & Installation
+```bash
+git clone https://github.com/your-repo/react-major-project.git
+cd react-major-project
+npm install
+npm run dev
+```
+
+##  Contribution
+Feel free to fork, modify, and submit pull requests to enhance the project.
+
+---
+
+📌 **Maintained by [Anish](https://github.com/ANISH-422004)**
+

@@ -13,7 +13,7 @@ const Popular = () => {
   const [popular, setPopular] = useState([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
-  document.title = "HiAnime "+"| "+"Popular"
+  document.title = "Movie App "+"| "+"Popular"
   
   console.log(popular);
 

@@ -16,7 +16,7 @@ const People = () => {
   const [person, setPerson] = useState([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
-  document.title = "HiAnime " + "| " + "People";
+  document.title = "Movie App " + "| " + "People";
 
   console.log(person);
 

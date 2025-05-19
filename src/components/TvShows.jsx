@@ -13,7 +13,7 @@ const TvShows = () => {
   const [tvshows, setTvshows] = useState([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
-  document.title = "HiAnime " + "| " + "TvShows";
+  document.title = "Movie App " + "| " + "TvShows";
 
   console.log(tvshows);
 

@@ -7,7 +7,7 @@ const SideBar = () => {
       {/* Sidebar Header */}
       <h1 className="flex items-center gap-2 text-2xl text-white font-mono">
         <i className="text-[#6556CD] ri-tv-fill"></i>
-        <span> HiAnime</span>
+        <span> Movie App</span>
       </h1>
 
       {/* Navigation */}
