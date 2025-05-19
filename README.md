@@ -1,4 +1,4 @@
-# Project HiAnime❤️
+# Project Movie App❤️
 
 A feature-rich React-based project utilizing Redux Toolkit, Tailwind CSS, and Axios for efficient state management, UI styling, and API interactions.
 
@@ -75,7 +75,7 @@ react-major-project/
 
 ## 🏗 Setup & Installation
 ```bash
-git clone https://github.com/your-repo/react-major-project.git
+git clone https://github.com/manishadtani/Movieapp.git
 cd react-major-project
 npm install
 npm run dev
@@ -86,5 +86,5 @@ Feel free to fork, modify, and submit pull requests to enhance the project.
 
 ---
 
-📌 **Maintained by [Anish](https://github.com/ANISH-422004)**
+
 
