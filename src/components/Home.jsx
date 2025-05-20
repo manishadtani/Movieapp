@@ -8,7 +8,7 @@ import Dropdown from "./templates/Dropdown";
 import Loader from "./templates/Loader";
 
 const Home = () => {
-  document.title = "Movie App | Home";
+  document.title = "StarStream | Home";
 
   const [wallpaper, setWallpaper] = useState(null);
   const [Trending, setTrending] = useState([]);

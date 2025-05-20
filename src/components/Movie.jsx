@@ -14,7 +14,7 @@ const Movie = () => {
     const [movies, setMovies] = useState([]);
     const [page, setPage] = useState(1);
     const [hasMore, setHasMore] = useState(true);
-    document.title = "Movie App "+"| "+"Movies"
+    document.title = "StarStream "+"| "+"Movies"
     
     console.log(movies);
   
